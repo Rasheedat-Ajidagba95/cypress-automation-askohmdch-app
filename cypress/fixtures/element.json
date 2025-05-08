@@ -1,0 +1,74 @@
+{ 
+"signup":{
+  "accountButton": "li[id='menu-item-1237'] a[class='menu-link']",
+  "usernameField": "#reg_username",
+  "emailField": "#reg_email",
+  "passwordField": "#reg_password",
+  "registerButton": "button[value='Register']",
+  "signupMessage": ".woocommerce-MyAccount-content > p:nth-of-type(2)",
+  "invalidSignupMessage": "div[id='content'] li:nth-child(1)"
+},
+
+"login":{
+  "accountButton": "li[id='menu-item-1237'] a[class='menu-link']",
+  "emailField": "#username",
+  "passwordField": "#password",
+  "loginButton": "button[name='login']",
+  "loginMessage": ".woocommerce-MyAccount-content > p:nth-of-type(2)",
+  "unsuccessfulLoginMessage": "ul[role='alert'] li"
+},
+  
+  
+"searchProduct":{
+  "storeButton": "li[id='menu-item-1227'] a[class='menu-link']",
+  "searchField": "#woocommerce-product-search-field-0",   
+  "searchButton": "button[value='Search']",
+  "productTitle": ".product_title.entry-title",
+  "productDescription": ".woocommerce-product-details__short-description"
+  },
+
+"filterProductByCategories":{
+  "storeButton": "li[id='menu-item-1227'] a[class='menu-link']",
+  "filterDropdown": "#product_cat",   
+  "categoryTitle": ".woocommerce-products-header"
+  },
+
+"sortProduct":{
+  "storeButton": "li[id='menu-item-1227'] a[class='menu-link']",
+  "sortDropdown": ".orderby"  
+ 
+  },
+
+"cartAndCheckout":{
+  "storeButton": "li[id='menu-item-1227'] a[class='menu-link']",
+  "addFirstItemToCartButton": "a[aria-label='Add “Anchor Bracelet” to your cart']",
+  "addSecondItemToCartButton": "a[aria-label='Add “Black Over-the-shoulder Handbag” to your cart']",
+  "viewCartButton": "[data-toggle-type] .ast-cart-menu-wrap",
+  "cartTitle": ".has-text-align-center",
+  "checkoutButton": ".wc-proceed-to-checkout",
+  "checkoutTitle": ".entry-title",
+  "firstNameField": "#billing_first_name",
+  "lastNameField": "#billing_last_name",
+  "selectCountryDropdown":"#select2-billing_country-container",
+  "billing_country":"#select2-billing_country-result-7tar-NG",
+  "searchCountryField":".select2-search__field",
+  "addressField": "#billing_address_1",
+  "cityField": "#billing_city",
+  "selectStateDropdown":"#select2-billing_state-container",
+  "searchStateField":".select2-search__field",
+  "emailField": "#billing_email",
+  "placeOrderButton": "#place_order",
+  "orderDetailsTitle": ".woocommerce-order-details__title"
+},
+
+"orderManagement":{
+  "orderButton": "ul > .woocommerce-MyAccount-navigation-link.woocommerce-MyAccount-navigation-link--orders",
+  "orderTitle": ".woocommerce-MyAccount-content > p:nth-of-type(2)",
+  "orderDetailsButton": "tr:nth-of-type(1) > .woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions > .button.view.woocommerce-button",
+  "orderDetailsTitle": ".woocommerce-order-details__title"
+  }
+}
+
+
+
+
